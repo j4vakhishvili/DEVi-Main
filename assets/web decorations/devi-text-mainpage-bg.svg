@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2430" height="1145" viewBox="0 0 2430 1145">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.78;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-size: 550px;
+        font-family: GilroyGEO-Black, Gilroy GEO;
+        font-weight: 800;
+        opacity: 0.04;
+      }
+    </style>
+  </defs>
+  <g id="Group_5" data-name="Group 5" class="cls-1" transform="translate(367 -266)">
+    <text id="DEVI" class="cls-2" transform="translate(68 800)"><tspan x="0" y="0">DEVI</tspan></text>
+    <text id="DEVI-2" data-name="DEVI" class="cls-2" transform="translate(854 1259)"><tspan x="0" y="0">DEVI</tspan></text>
+    <text id="DEVI-3" data-name="DEVI" class="cls-2" transform="translate(-367 1259)"><tspan x="0" y="0">DEVI</tspan></text>
+  </g>
+</svg>
