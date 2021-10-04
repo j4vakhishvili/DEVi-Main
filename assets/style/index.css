@@ -145,7 +145,7 @@ body{
 
 .aboutTxt{
     position: absolute;
-    top: 1130px;
+    top: 1160px;
 }
 
 .Title{
@@ -169,4 +169,13 @@ body{
 
 .aboutDesc{
     width: 545px;
+}
+
+div.portfolio{
+    position: absolute;
+    top: 2350px;
+}
+
+p.portfolio{
+    float: right;
 }

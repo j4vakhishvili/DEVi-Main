@@ -8,6 +8,7 @@
         <link rel="icon" href="assets/icons/logo-mad.svg">
         <link rel="stylesheet" href="assets/style/default.css">
         <link rel="stylesheet" href="assets/style/index.css">
+        <link rel="stylesheet" href="assets/style/slides.css">
     </head>
     <body>
         <div class="landingpage">
@@ -34,14 +35,57 @@
             </div>
         </div>
         <div class="about">
-            <div class="aboutbg" id="about"></div>
+            <div class="aboutbg"></div>
             <div class="container">
                 <div class="about-illustration"></div>
                 <div class="aboutTxt">
-                    <p class="Title">Who are we</p>
+                    <p class="Title" id="about">Who are we</p>
                     <p class="Desc">Devi (currently) is a learning platform that can teach websites and other types of development, which is still in Georgian, Devi is a developed web site, showing whether we understand the technological field of the country.</p>
                     <p class="Title aboutTitle">So where did Devi come from?</p>
                     <p class="Desc aboutDesc">We thought a lot about how to develop programming and technology in Georgia, for that you just needed to create Devi and share our knowledge with you for free, Devi is not going to stop at one place and plans to add lots of other learning materials to the site.</p>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio">
+            <div class="container">
+                <p class="Title portfolio">Our Portfolio</p>
+                <div class="slider">
+                    <div class="slides">
+                        <!-- radio start -->
+                        <input type="radio" name="switchSlide" id="radio1">
+                        <input type="radio" name="switchSlide" id="radio2">
+                        <input type="radio" name="switchSlide" id="radio3">
+                        <input type="radio" name="switchSlide" id="radio4">
+                        <!-- radio end -->
+                        <div class="slide first">
+                            <img src="gallery/slides/DEVi-Edu.svg" alt="DeviEdu">
+                        </div>
+                        <div class="slide">
+                            <img src="gallery/slides/NoTimeToDie.svg" alt="NoTimeToDie">
+                        </div>
+                        <div class="slide">
+                            <img src="gallery/slides/DEVi-Edu.svg" alt="DeviEdu">
+                        </div>
+                        <div class="slide">
+                            <img src="gallery/slides/NoTimeToDie.svg" alt="NoTimeToDie">
+                        </div>
+                        <!-- auto nav start -->
+                        <div class="navigaiton-auto">
+                            <div class="auto-btn1"></div>
+                            <div class="auto-btn2"></div>
+                            <div class="auto-btn3"></div>
+                            <div class="auto-btn4"></div>
+                        </div>
+                        <!-- auto nav end -->
+                    </div>
+                    <!-- manual nav start -->
+                    <div class="navigation-manual">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                        <label for="radio4" class="manual-btn"></label>
+                    </div>
+                    <!-- manual nav end -->
                 </div>
             </div>
         </div>
