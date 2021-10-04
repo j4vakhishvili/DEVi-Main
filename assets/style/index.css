@@ -1,5 +1,6 @@
 body{
     background-color: #0C0C0C;
+    overflow-x: clip;
 }
 
 .landing{
@@ -178,4 +179,32 @@ div.portfolio{
 
 p.portfolio{
     float: right;
+}
+
+.b6{
+    width: 155px;
+    height: 155px;
+    top: 2545px;
+    left: 95px;
+}
+
+.b7{
+    width: 155px;
+    height: 155px;
+    top: 2870px;
+    left: -50px;
+}
+
+.b8{
+    width: 225px;
+    height: 225px;
+    top: 2305px;
+    left: 1750px;
+}
+
+.b9{
+    width: 225px;
+    height: 225px;
+    top: 2660px;
+    left: 1490px;
 }
