@@ -1,0 +1,172 @@
+body{
+    background-color: #0C0C0C;
+}
+
+.landing{
+    position: absolute;
+    width: 100%;
+    height: 1080px;
+    background: url(../styledImgs/devi-text-mainpage-bg.svg);
+    background-position: 70%;
+    background-repeat: no-repeat;
+    margin-top: 35px;
+}
+
+.bubble{
+    position: absolute;
+    background: url(../styledImgs/bubble-purple.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.b1{
+    width: 44px;
+    height: 44px;
+    top: 130px;
+    left: 150px;
+}
+
+.b2{
+    width: 225px;
+    height: 225px;
+    top: 795px;
+    left: 55px;
+}
+
+.b3{
+    width: 70px;
+    height: 70px;
+    top: 420px;
+    left: 820px;
+}
+
+.b4{
+    width: 95px;
+    height: 95px;
+    top: 145px;
+    left: 1675px;
+}
+
+.b5{
+    width: 55px;
+    height: 55px;
+    top: 805px;
+    left: 1805px;
+}
+
+.container{
+    position: absolute;
+    width: 1428px;
+    left: 190px;
+}
+
+.landtxt{
+    color: #fff;
+    font-family: 'Mark-Bold', sans-serif;
+    font-size: 225px;
+    position: absolute;
+    top: 100px;
+}
+
+.hola{
+    display: inline-block;
+}
+
+.landtxtdot{
+    width: 30px;
+    height: 30px;
+    background: #FF0045;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+.letsstart{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.getstart{
+    width: 250px;
+    height: 90px;
+    position: absolute;
+    top: 754px;
+    left: 1300px;
+}
+
+.getstartTxt{
+    font-family: 'Mark', sans-serif;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    top: 28px;
+    left: -108px;
+    font-size: 28px;
+}
+
+.starticon{
+    height: 20px;
+    width: 12px;
+    background: url(../icons/Icon-arrow-forward.svg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: absolute;
+    top: 35px;
+    left: 42px;
+}
+
+.startbg{
+    width: 90px;
+    height: 90px;
+    background: #FE1645;
+    border-radius: 25px;
+    display: inline-block;
+    position: absolute;
+}
+
+.aboutbg{
+    position: absolute;
+    background: url(../styledImgs/about-bg.svg);
+    width: 100%;
+    height: 1636px;
+    top: 825px;
+}
+
+.about-illustration{
+    position: absolute;
+    background: url(../styledImgs/about-illustration.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 1090px;
+    height: 565px;
+    top: 1550px;
+    left: 550px;
+}
+
+.aboutTxt{
+    position: absolute;
+    top: 1130px;
+}
+
+.Title{
+    font-family: 'Gilroy', 'Mark-Bold', 'Mark',sans-serif;
+    font-size: 112px;
+    color: #fff;
+}
+
+.Desc{
+    font-family: 'Mark',sans-serif;
+    font-size: 40px;
+    color: #fff;
+    opacity: 54%;
+    margin-top: 25px;
+}
+
+.aboutTitle{
+    font-size: 46px;
+    margin-top: 55px;
+}
+
+.aboutDesc{
+    width: 545px;
+}
