@@ -27,12 +27,13 @@
   }
    
   ::-webkit-scrollbar-thumb {
-    background: #2a2a2a;
+    background: rgb(27, 27, 27);
     border-radius: 30px;
   }
   
   ::-webkit-scrollbar-thumb:hover {
-    background: #2f2f2f; 
+    background: #262626; 
+    transition: 0.2s;
   }
   
   ::selection {
@@ -49,7 +50,7 @@ p{
   padding: 0;
 }
 
-  input:focus {
+  input:focus, textarea:focus{
     outline: none;
   }
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */

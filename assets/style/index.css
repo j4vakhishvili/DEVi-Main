@@ -395,3 +395,77 @@ div.fullPortfolio:hover{
     margin-left: 70px;
     margin-top: 70px;
 }
+
+.toStart{
+    transition: 0.5s;
+    padding: 50px;
+}
+
+.toStart:hover{
+    transform: translateX(10px);
+    transition: 0.5s;
+}
+
+.contactForm{
+    width: 630px;
+    margin-top: 75px;
+    display: inline-block;
+}
+
+.contactForm input, textarea{
+    width: 86%;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Mark', sans-serif;
+    padding-left: 45px;
+    padding-right: 45px;
+    font-size: 25px;
+    background: #303030;
+    margin-bottom: 25px;
+    color: white;
+    transition: 0.3s;
+}
+
+.contactForm input:hover, textarea:hover{
+    background: #3e3e3e;
+    transition: 0.3s;
+}
+
+.name-and-email{
+    height: 85px;
+}
+
+.subject{
+    max-width: 540px;
+    min-width: 540px;
+    min-height: 315px;
+    padding-top: 25px;
+}
+
+.map{
+    width: 720px;
+    height: 690px;
+    float: right;
+    margin-top: 75px;
+    border-radius: 30px;
+    border: 1px solid #FE1645;
+}
+
+#contactBtn{
+    background: url(../icons/Icon\ feather-send.svg) #FE1645;
+    background-repeat: no-repeat;
+    background-position: 37% 51%;
+    width: 100%;
+    height: 100px;
+    cursor: pointer;
+    padding-left: 100px;
+}
+
+#contactBtn:hover{
+    background: url(../icons/Icon\ feather-send.svg) #ffa3b6;
+    transition: 0.3s;
+    filter: invert(1);
+    color: black;
+    padding-left: 80px;
+    font-family: 'Mark-Bold', 'Mark', sans-serif;
+}
