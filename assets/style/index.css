@@ -567,3 +567,28 @@ header::before {
     opacity: 80%;
     transition: 0.2s;
 }
+
+.language a{
+    font-family: 'Mark', sans-serif;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    line-height: 100px;
+    opacity: 80%;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.language a:not(:last-child){
+    margin-right: 15px;
+}
+
+.language a:not(:last-child){
+    margin-left: 35px;
+}
+
+.active{
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+    transition: 0.3s;
+}
