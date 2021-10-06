@@ -209,3 +209,189 @@ p.portfolio{
     top: 2660px;
     left: 1490px;
 }
+
+.portfolio-links{
+    width: 100%;
+    height: 330px;
+    background: #3714A4;
+    margin-top: -30px;
+    z-index: inherit;
+}
+
+.EduDevi{
+    font-family: 'Mark', sans-serif;
+    font-size: 72px;
+    color: white;
+    line-height: 4.3;
+}
+
+.edu, .gamingDEVi{
+    width: 50%;
+    height: 300px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.edu:hover, .gamingDEVi:hover{
+    background: #5020df;
+    transition: 0.3s;
+}
+
+.gamingDEVi{
+    float: right;
+    justify-content: center;
+}
+
+.gamingCover{
+    height: 270px;
+    width: 680px;
+    background: #190058;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+}
+
+.logo-gmDevi{
+    width: 100px;
+    margin-top: 25px;
+}
+
+.gmDevi{
+    width: 110px;
+    height: 68px;
+    background: url(../icons/DEVi\ Game\ Company.svg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+div.fullPortfolio{
+    width: 100%;
+    height: 90px;
+    background: #FE1645;
+    border-radius: 0 0 25px 25px;
+    text-align: center;
+    cursor: pointer;
+}
+
+p.fullPortfolio{
+    font-family: 'Mark-Bold', 'Mark', sans-serif;
+    color: #0C0C0C;
+    font-size: 30px;
+    line-height: 3;
+}
+
+div.fullPortfolio:hover{
+    background: #ff2b56;
+    transition: 0.3s;
+}
+
+.chainStyleOne{
+    background: url(../styledImgs/why-us-decor.svg);
+    background-repeat: no-repeat;
+    background-position: 0% 96%;
+    width: 555px;
+    height: 955px;
+    position: absolute;
+    top: 3582px;
+}
+
+.chainStyleTwo{
+    background: url(../styledImgs/why-us-decor.svg);
+    background-repeat: no-repeat;
+    background-position: 102% 73%;
+    width: 500px;
+    height: 1590px;
+    position: absolute;
+    top: 2948px;
+    left: 1444px;
+}
+
+.whyus{
+    margin-top:30px;
+    position: absolute;
+    top: 3450px;
+}
+
+.whyusTxt{
+    margin-top: 90px;
+    font-size: 90px;
+}
+
+.whyusTxt::after{
+    margin-top: 90px;
+    content: attr(data-text);
+    position: absolute;
+    transition: 0.5s;
+    top: 25px;
+    left: -14px;
+    color: #EE1553;
+    z-index: -1;
+    transform: translate(20px, -20px);
+}
+
+.whyusTxt::before{
+    margin-top: 90px;
+    content: attr(data-text);
+    position: absolute;
+    transition: 0.5s;
+    top: 30px;
+    left: -8px;
+    color: #7312C5;
+    z-index: -1;
+    transform: translate(20px, -20px);
+}
+
+.chain{
+    background: url(../styledImgs/why-us-chain.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    width: 210px;
+    height: 170px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 256px;
+}
+
+.contacthead{
+    background: #3714A4;
+    width: 100%;
+    height: 278px;
+}
+
+.contact{
+    width: 100%;
+    position: absolute;
+    top: 4536px;
+}
+
+.b10{
+    width: 95px;
+    height: 95px;
+    top: 4590px;
+    left: 85px;
+    filter: hue-rotate(72deg);
+    z-index: 1;
+}
+
+.b11{
+    top: 4590px;
+    left: 1715px;
+}
+
+.b12{
+    width: 155px;
+    height: 114px;
+    top: 4700px;
+    left: 1190px;
+}
+
+.contactTxt{
+    margin-left: 70px;
+    margin-top: 70px;
+}
