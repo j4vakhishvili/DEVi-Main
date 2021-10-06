@@ -508,18 +508,62 @@ header::after {
     right: 50%;
     transform: translateX(-50%);
     width: 0.5px;
-    height: 64vh;
-    top: 180px;
+    height: 5vh;
     background: #d7d7d7;
     opacity: 35%;
+    bottom: 145px;
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    right: 50%;
+    transform: translateX(-50%);
+    width: 0.5px;
+    height: 5vh;
+    background: #d7d7d7;
+    opacity: 35%;
+    top: 157px;
 }
 
 .menu-icon{
     width: 50px;
     height: 50px;
-    background: rgba(255,255,255,0.1);
-    border-radius: 15px;
+    background: #fff;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 85px;
+    margin-top: 28px;
+    padding: 40px;
+    cursor: pointer;
+    opacity: 50%;
+    transition: 0.2s;
+}
+
+.wrw{
+    background: url(../icons/Icon-about.svg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.pf{
+    background: url(../icons/Icon-portfolio.svg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.wus{
+    background: url(../icons/Icon-whyus.svg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.cntct{
+    background: url(../icons/Icon-contact.svg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.menu-icon:hover{
+    opacity: 80%;
+    transition: 0.2s;
 }
