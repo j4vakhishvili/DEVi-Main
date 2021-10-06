@@ -469,3 +469,8 @@ div.fullPortfolio:hover{
     padding-left: 80px;
     font-family: 'Mark-Bold', 'Mark', sans-serif;
 }
+
+footer{
+    position: absolute;
+    top: 5686px;
+}
