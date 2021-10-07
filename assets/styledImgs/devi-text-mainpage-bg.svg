@@ -1,22 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="2430" height="1145" viewBox="0 0 2430 1145">
-  <defs>
-    <style>
-      .cls-1 {
-        opacity: 0.78;
-      }
-
-      .cls-2 {
-        fill: #fff;
-        font-size: 550px;
-        font-family: GilroyGEO-Black, Gilroy GEO;
-        font-weight: 800;
-        opacity: 0.04;
-      }
-    </style>
-  </defs>
-  <g id="Group_5" data-name="Group 5" class="cls-1" transform="translate(367 -266)">
-    <text id="DEVI" class="cls-2" transform="translate(68 800)"><tspan x="0" y="0">DEVI</tspan></text>
-    <text id="DEVI-2" data-name="DEVI" class="cls-2" transform="translate(854 1259)"><tspan x="0" y="0">DEVI</tspan></text>
-    <text id="DEVI-3" data-name="DEVI" class="cls-2" transform="translate(-367 1259)"><tspan x="0" y="0">DEVI</tspan></text>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 2430 1145" style="enable-background:new 0 0 2430 1145;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.78;}
+	.st1{enable-background:new    ;}
+	.st2{fill:#FFFFFF;}
+</style>
+<g id="Group_5" transform="translate(367 -266)" class="st0">
+	<g class="st1">
+		<path class="st2" d="M350.2,440.3c28.6,16.9,51.1,40,67.4,69.3c16.3,29.3,24.5,62,24.5,97.9c0,35.9-8.2,68.6-24.5,97.9
+			c-16.3,29.3-38.8,52.4-67.4,69.3C321.5,791.6,289.8,800,255,800H98.2V415H255C289.8,415,321.5,423.4,350.2,440.3z M320.5,678.2
+			c16.9-17.8,25.3-41.3,25.3-70.7c0-29.3-8.4-52.9-25.3-70.7c-16.9-17.8-38.7-26.7-65.5-26.7h-55.5v194.7H255
+			C281.8,704.8,303.6,696,320.5,678.2z"/>
+		<path class="st2" d="M735.1,800H487.6V415h244.8v91.9H586.1v53.4h132.5V651H586.1v56.6h149V800z"/>
+		<path class="st2" d="M859.4,415l74.8,265.1l75.4-265.1h107.8L993.1,800H875.9L751.6,415H859.4z"/>
+		<path class="st2" d="M1246.1,800h-98.5V415h98.5V800z"/>
+	</g>
+	<g class="st1">
+		<path class="st2" d="M1136.2,899.3c28.6,16.9,51.1,40,67.4,69.3c16.3,29.3,24.5,62,24.5,97.9c0,35.9-8.2,68.6-24.5,97.9
+			c-16.3,29.3-38.8,52.4-67.4,69.3c-28.6,16.9-60.3,25.3-95.2,25.3H884.2V874H1041C1075.8,874,1107.5,882.4,1136.2,899.3z
+			 M1106.5,1137.2c16.9-17.8,25.3-41.3,25.3-70.7c0-29.3-8.4-52.9-25.3-70.7c-16.9-17.8-38.7-26.7-65.5-26.7h-55.5v194.7h55.5
+			C1067.8,1163.8,1089.6,1155,1106.5,1137.2z"/>
+		<path class="st2" d="M1521.1,1259h-247.5V874h244.8v91.8h-146.3v53.4h132.5v90.8h-132.5v56.6h149V1259z"/>
+		<path class="st2" d="M1645.4,874l74.8,265.1l75.4-265.1h107.8l-124.3,385h-117.2l-124.3-385H1645.4z"/>
+		<path class="st2" d="M2032.1,1259h-98.5V874h98.5V1259z"/>
+	</g>
+	<g class="st1">
+		<path class="st2" d="M-84.8,899.3c28.6,16.9,51.1,40,67.4,69.3c16.3,29.3,24.5,62,24.5,97.9c0,35.9-8.2,68.6-24.5,97.9
+			c-16.3,29.3-38.8,52.4-67.4,69.3c-28.6,16.9-60.3,25.3-95.2,25.3h-156.8V874H-180C-145.2,874-113.5,882.4-84.8,899.3z
+			 M-114.5,1137.2c16.9-17.8,25.3-41.3,25.3-70.7c0-29.3-8.4-52.9-25.3-70.7c-16.9-17.8-38.7-26.7-65.5-26.7h-55.5v194.7h55.5
+			C-153.2,1163.8-131.4,1155-114.5,1137.2z"/>
+		<path class="st2" d="M300.1,1259H52.6V874h244.8v91.8H151.1v53.4h132.5v90.8H151.1v56.6h149V1259z"/>
+		<path class="st2" d="M424.4,874l74.8,265.1L574.6,874h107.8l-124.3,385H440.9L316.6,874H424.4z"/>
+		<path class="st2" d="M811.1,1259h-98.5V874h98.5V1259z"/>
+	</g>
+</g>
 </svg>
