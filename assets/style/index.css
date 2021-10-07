@@ -274,7 +274,7 @@ p.portfolio{
 div.fullPortfolio{
     width: 100%;
     height: 90px;
-    background: #FE1645;
+    background: #d0002a;
     border-radius: 0 0 25px 25px;
     text-align: center;
     cursor: pointer;
@@ -289,7 +289,7 @@ p.fullPortfolio{
 }
 
 div.fullPortfolio:hover{
-    background: #d0002a;
+    background: #FE1645;
     transition: 0.3s;
 }
 
