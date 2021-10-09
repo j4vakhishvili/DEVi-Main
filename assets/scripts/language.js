@@ -11,6 +11,11 @@ const EduDevi = document.querySelector('.EduDevi');
 const fullPortfolio = document.querySelector('.ourwork');
 const whyusTxt = document.querySelector('.ourwork');
 const contactTxt = document.querySelector('.contactTxt');
+const QA = document.querySelector('.QA');
+const Policy = document.querySelector('.Policy');
+const rights = document.querySelector('.rights');
+const Partner = document.querySelector('.Partner');
+const otherwork = document.querySelector('.otherwork');
 
 link.forEach(el => {
     el.addEventListener('click', () => {
@@ -28,8 +33,17 @@ link.forEach(el => {
         EduDevi.textContent = data[attr].EduDevi;
         fullPortfolio.textContent = data[attr].fullPortfolio;
         contactTxt.textContent = data[attr].contactTxt;
+        QA.textContent = data[attr].QA;
+        Policy.textContent = data[attr].Policy;
+        rights.textContent = data[attr].rights;
+        Partner.textContent = data[attr].Partner;
+        otherwork.textContent = data[attr].otherwork;
     })
 })
+
+function langSwitch(){
+    
+}
 
 var data = {
     "GEka":{
@@ -43,6 +57,11 @@ var data = {
         "EduDevi": "DEVi სწავლება",
         "fullPortfolio": "შეავლე თვალი ჩვენს ყველა პროექტს",
         "contactTxt": "კონტაქტი",
+        "QA": "ხშირად დასმული კითხვები",
+        "Policy": "წესდება და პოლიტიკა",
+        "rights": "ყველა უფლება დაცულია",
+        "Partner": "პარტნიორი",
+        "otherwork": "ჩვენი საიტები",
     },
     "enUS":{
         "Hola": "hola",
@@ -55,13 +74,24 @@ var data = {
         "EduDevi": "DEVi EDU",
         "fullPortfolio": "see all of our projects",
         "contactTxt": "Contact",
+        "QA": "Frequently Asked Questions",
+        "Policy": "Privacy policy",
+        "rights": "All rights reserved",
+        "Partner": "Our Partner",
+        "otherwork": "Our Other Sites",
     }
 }
 
+function getGe(){
+    document.getElementById("whyusEng").style.display = "none";
+    document.getElementById("whyusGe").style.display = "block";
+    document.getElementById("ctFormEng").style.display = "none";
+    document.getElementById("ctFormGe").style.display = "inline-block";
+}
 
-localStorage.setItem("lang", lang);
-const currentLang = localStorage.getItem("lang");
-
-if(currentLang == "lang"){
-    
+function getEn(){
+    document.getElementById("whyusEng").style.display = "block";
+    document.getElementById("whyusGe").style.display = "none";
+    document.getElementById("ctFormEng").style.display = "inline-block";
+    document.getElementById("ctFormGe").style.display = "none";
 }
