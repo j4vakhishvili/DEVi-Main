@@ -157,7 +157,7 @@ body{
 }
 
 .Desc{
-    font-family: 'Mark',sans-serif;
+    font-family: 'Mark-Low',sans-serif;
     font-size: 40px;
     color: #fff;
     opacity: 54%;
@@ -418,7 +418,7 @@ div.fullPortfolio:hover{
     width: 86%;
     border-radius: 20px;
     border: none;
-    font-family: 'Mark', sans-serif;
+    font-family: 'Mark-Low', sans-serif;
     padding-left: 45px;
     padding-right: 45px;
     font-size: 25px;
@@ -462,6 +462,7 @@ div.fullPortfolio:hover{
     height: 100px;
     cursor: pointer;
     padding-left: 100px;
+    font-family: 'Mark', sans-serif;
 }
 
 #contactBtn:hover{

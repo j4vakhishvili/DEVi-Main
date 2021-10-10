@@ -9,6 +9,11 @@
 }
 
 @font-face {
+  font-family: 'Mark-Low';
+  src: url(../fonts/MarkGEO-Medium.ttf);
+}
+
+@font-face {
     font-family: 'Onley';
     src: url(../fonts/Olney-Bold.ttf);
 }
