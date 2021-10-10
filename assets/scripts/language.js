@@ -17,32 +17,31 @@ const rights = document.querySelector('.rights');
 const Partner = document.querySelector('.Partner');
 const otherwork = document.querySelector('.otherwork');
 
-link.forEach(el => {
-    el.addEventListener('click', () => {
-        langEl.querySelector('.active').classList.remove('active');
-        el.classList.add('active');
-        
-        const attr = el.getAttribute('language');
-        hola.textContent = data[attr].Hola;
-        weare.textContent = data[attr].WeAre;
-        DEVi.textContent = data[attr].DEVi;
-        getStart.textContent = data[attr].getStart;
-        whoAreWe.textContent = data[attr].whoAreWe;
-        whereDidDeviCome.textContent = data[attr].whereDidDeviCome;
-        portfolio.textContent = data[attr].portfolio;
-        EduDevi.textContent = data[attr].EduDevi;
-        fullPortfolio.textContent = data[attr].fullPortfolio;
-        contactTxt.textContent = data[attr].contactTxt;
-        QA.textContent = data[attr].QA;
-        Policy.textContent = data[attr].Policy;
-        rights.textContent = data[attr].rights;
-        Partner.textContent = data[attr].Partner;
-        otherwork.textContent = data[attr].otherwork;
-    })
-})
-
-function langSwitch(){
-    
+function getLang(){
+    link.forEach(el => {
+        el.addEventListener('click', () => {
+            langEl.querySelector('.active').classList.remove('active');
+            el.classList.add('active');
+            
+            const attr = el.getAttribute('language');
+            hola.textContent = data[attr].Hola;
+            weare.textContent = data[attr].WeAre;
+            DEVi.textContent = data[attr].DEVi;
+            getStart.textContent = data[attr].getStart;
+            whoAreWe.textContent = data[attr].whoAreWe;
+            whereDidDeviCome.textContent = data[attr].whereDidDeviCome;
+            portfolio.textContent = data[attr].portfolio;
+            EduDevi.textContent = data[attr].EduDevi;
+            fullPortfolio.textContent = data[attr].fullPortfolio;
+            contactTxt.textContent = data[attr].contactTxt;
+            QA.textContent = data[attr].QA;
+            Policy.textContent = data[attr].Policy;
+            rights.textContent = data[attr].rights;
+            Partner.textContent = data[attr].Partner;
+            otherwork.textContent = data[attr].otherwork;
+            document.getAttribute("lang");
+        });
+    });
 }
 
 var data = {
@@ -87,6 +86,7 @@ function getGe(){
     document.getElementById("whyusGe").style.display = "block";
     document.getElementById("ctFormEng").style.display = "none";
     document.getElementById("ctFormGe").style.display = "inline-block";
+    document.body.setAttribute("lang", "1");
 }
 
 function getEn(){
@@ -94,4 +94,9 @@ function getEn(){
     document.getElementById("whyusGe").style.display = "none";
     document.getElementById("ctFormEng").style.display = "inline-block";
     document.getElementById("ctFormGe").style.display = "none";
+    document.body.removeAttribute("lang");
 }
+
+window.addEventListener("load", () => {
+    getLang();
+});

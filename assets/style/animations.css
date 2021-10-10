@@ -1,0 +1,27 @@
+.landtxt{
+    transform: translateY(250px);
+    opacity: 0;
+    transition: 1s;
+}
+
+header{
+    transform: translateX(350px);
+    transition: 2.5s;
+}
+
+.getstart{
+    transform: scale(0.5);
+    transform: translateX(350px);
+    opacity: 0;
+    transition: 0.8s;
+}
+
+.landing{
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.bubble{
+    transform: scale(0);
+    transition: 0.8s;
+}
