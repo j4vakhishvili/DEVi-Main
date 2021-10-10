@@ -181,7 +181,24 @@ div.portfolio{
 p.portfolio{
     float: right;
     margin-bottom: 45px;
+    overflow: hidden;
+    background: linear-gradient( 90deg, #0c0c0c, #fff, #0c0c0c);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 3s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    text-align: center;
 }
+
+@keyframes animate {
+    0% {
+      background-position: -800%;
+    }
+    100% {
+      background-position: 800%;
+    }
+  }
 
 .b6{
     width: 155px;

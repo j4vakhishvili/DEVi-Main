@@ -14,6 +14,7 @@ const b9 = document.querySelector(".b9");
 const b10 = document.querySelector(".b10");
 const b11 = document.querySelector(".b11");
 const b12 = document.querySelector(".b12");
+const aboutIllustration = document.querySelector(".about-illustration");
 
 window.addEventListener("load", () => {
     header.style.transform = "translateX(0)";
@@ -34,4 +35,10 @@ window.addEventListener("load", () => {
     b10.style.transform = "scale(1)";
     b11.style.transform = "scale(1)";
     b12.style.transform = "scale(1)";
+});
+
+window.addEventListener("scroll", () => {
+    const scrollValue = window.scrollY;
+
+    aboutIllustration.style.left = scrollValue * 0.5 + "px";
 });
