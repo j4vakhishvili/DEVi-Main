@@ -158,7 +158,7 @@ body{
 
 .Desc{
     font-family: 'Mark-Low',sans-serif;
-    font-size: 40px;
+    font-size: 34px;
     color: #fff;
     opacity: 54%;
     margin-top: 25px;
@@ -185,8 +185,8 @@ p.portfolio{
     background: linear-gradient( 90deg, #0c0c0c, #fff, #0c0c0c);
     background-repeat: no-repeat;
     background-size: 80%;
-    animation: animate 3s linear infinite;
     -webkit-background-clip: text;
+    animation: animate 3s linear infinite;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
     text-align: center;
 }
@@ -291,7 +291,7 @@ p.portfolio{
 div.fullPortfolio{
     width: 100%;
     height: 90px;
-    background: #d0002a;
+    background: #f50737;
     border-radius: 0 0 25px 25px;
     text-align: center;
     cursor: pointer;
