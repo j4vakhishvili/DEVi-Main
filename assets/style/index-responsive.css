@@ -59,7 +59,8 @@
         margin-right: 12px;
     }
     .EduDevi{
-        font-size: 65px;
+        font-size: 58px;
+        line-height: 5.3;
     }
     .landtxt{
         font-size: 170px;
@@ -97,6 +98,7 @@
         top: 4410px;
     }
     .aboutTxt {
+        position: absolute;
         top: 1100px;
     }
 }
