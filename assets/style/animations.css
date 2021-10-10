@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 .landtxt{
     transform: translateY(250px);
     opacity: 0;

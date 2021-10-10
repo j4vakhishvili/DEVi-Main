@@ -88,12 +88,15 @@
         font-size: 46px;
     }
     .Desc{
-        font-size: 34px;
+        font-size: 32px;
     }
     .about-illustration{
         top: 1445px;
     }
     .contact{
         top: 4410px;
+    }
+    .aboutTxt {
+        top: 1100px;
     }
 }
