@@ -105,3 +105,9 @@
     background: #DB0034;
     border: 3px solid #DB0034;
 }
+
+@media only screen and (max-width: 1830px){
+    .slides {
+        width: 630%;
+    }
+}

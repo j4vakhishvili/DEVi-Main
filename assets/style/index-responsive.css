@@ -1,0 +1,99 @@
+@media only screen and (max-width: 1830px){
+    .getstart{
+        top: 676px;
+        left: 1030px;
+    }
+    .b3{
+        top: 340px;
+    }
+    .b4{
+        left: 1430px;
+    }
+    .b5{
+        left: 1510px;
+    }
+    .b8{
+        left: 1390px;
+    }
+    .b9{
+        left: 1220px;
+    }
+    .b10{
+        top: 4430px;
+        transform: scale(0.8) !important;
+    }
+    .b11{
+        left: 1280px;
+
+    }
+    .b12{
+        left: 920px;
+        top: 4507px !important;
+    }
+    .container{
+        width: 1130px;
+    }
+    .gamingCover{
+        width: 95%;
+    }
+    .chainStyleTwo{
+        left: 1280px;
+    }
+    .subject {
+        max-width: 465px;
+        min-width: 465px;
+    }
+    .contactForm {
+        width: 544px;
+    }
+    #contactBtn{
+        width: 102%;
+    }
+    .map {
+        width: 548px;
+    }
+    .ourotherwork {
+        margin-left: 35px;
+    }
+    .ft-icon:not(:last-child) {
+        margin-right: 12px;
+    }
+    .EduDevi{
+        font-size: 65px;
+    }
+    .landtxt{
+        font-size: 170px;
+        width: 685px;
+        top: 20px;
+    }
+    .menu-icon{
+        padding: 17px;
+    }
+    .chain{
+        margin-top: 192px;
+    }
+    .contacthead{
+        height: 200px;
+    }
+    .contactTxt {
+        margin-top: 46px;
+    }
+    footer{
+        top: 5450px;
+    }
+    .Title{
+        font-size: 90px;
+    }
+    .aboutTitle {
+        font-size: 46px;
+    }
+    .Desc{
+        font-size: 34px;
+    }
+    .about-illustration{
+        top: 1445px;
+    }
+    .contact{
+        top: 4410px;
+    }
+}
