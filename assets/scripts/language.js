@@ -84,8 +84,8 @@ var data = {
         "rights": "All rights reserved",
         "Partner": "Our Partner",
         "otherwork": "Our Other Sites",
-        "whoareDeviDesc": "DEVi is a little group, that is trying to establish themselves in the field of computer science, DEVi's goal is expanding the horizons of the technological world for the Georgian people and at the same time, it aims to introduce issues that will advance the Georgian nation.",
-        "aboutDesc": "We thought too much that how to improve programming and technology subjects in Georgia, for that reason was needed to create DEVi, ...and we started sharing our knowledge, however, it was not enough and we formed DEVi on the gaming company side, at last, we are not going to stop, we will create many other necessary subjects.",
+        "whoareDeviDesc": "DEVi is a little group that is trying to establish themselves in the field of computer science, DEVi's goal is expanding the horizons of the technological world for the Georgian people and at the same time, it aims to introduce issues that will advance the Georgian nation.",
+        "aboutDesc": "We thought so much that how to improve programming and technology subjects in Georgia, for that reason it was needed to create DEVi, ...and we started sharing our knowledge, however, it was not enough and we formed DEVi on the gaming company side, at last, we are not going to stop, we will create many other necessary subjects.",
     }
 }
 
