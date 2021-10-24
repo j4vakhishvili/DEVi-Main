@@ -1,0 +1,113 @@
+body{
+    background:black;
+}
+
+.bg{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    animation: rgb 5s infinite;
+}
+
+.stars{
+    background: url(../media/first-page-mootion/DEVi-Stars.png);
+    background-position: 50%;
+    background-size: cover;
+    animation: rgb 5s infinite;
+    animation: fade 3s infinite;
+}
+
+.side-lights{
+    background: url(../media/first-page-mootion/DEVi-side-lights.png);
+    background-position: 50%;
+    background-size: cover;
+}
+
+.top-lights{
+    background: url(../media/first-page-mootion/DEVi-top-light.png);
+    background-position: 50%;
+    background-size: cover;
+    animation: fade 5s infinite;
+    animation-delay: 9s;
+}
+
+.bg-smoke{
+    background: url(../media/first-page-mootion/DEVi-Smoke-BG.png);
+    background-size: auto;
+    background-position: 97% 50%;
+    background-repeat: no-repeat;
+    animation: fade 5s infinite;
+}
+
+.DEVi{
+    background: url(../media/first-page-mootion/DEVi-DEVi.png);
+    background-position: 50% 6vh;
+    background-repeat: no-repeat;
+}
+
+.Ball{
+    background: url(../media/first-page-mootion/DEVi-Ball.png);
+    background-position: 50% 120%;
+    background-repeat: no-repeat;
+}
+
+.DEVi-hand{
+    background: url(../media/first-page-mootion/DEVi-Hand.png);
+    background-position: 51% 100%;
+    background-repeat: no-repeat;
+}
+
+.Lights{
+    background: url(../media/first-page-mootion/DEVi-Lights.png);
+    background-position: 48% 8vh;
+    background-repeat: no-repeat;
+}
+
+.Hand-Lights{
+    background: url(../media/first-page-mootion/DEVi-Hand-Lights.png);
+    background-position: 48% 100%;
+    background-repeat: no-repeat;
+}
+
+.smoke{
+    background: url(../media/first-page-mootion/DEVi-Smoke.png);
+    background-size: auto;
+    background-position: 5% 50%;
+    background-repeat: no-repeat;
+    animation: fade 5s infinite;
+}
+
+@keyframes rgb {
+    0%   {filter: hue-rotate(0deg);}
+    5%   {filter: hue-rotate(18deg);}
+    10%   {filter: hue-rotate(36deg);}
+    15%   {filter: hue-rotate(54deg);}
+    20%   {filter: hue-rotate(72deg);}
+    25%   {filter: hue-rotate(90deg);}
+    30%   {filter: hue-rotate(108deg);}
+    35%   {filter: hue-rotate(126deg);}
+    40%   {filter: hue-rotate(144deg);}
+    50%   {filter: hue-rotate(162deg);}
+    55%   {filter: hue-rotate(180deg);}
+    60%   {filter: hue-rotate(198deg);}
+    65%   {filter: hue-rotate(216deg);}
+    70%   {filter: hue-rotate(234deg);}
+    75%   {filter: hue-rotate(252deg);}
+    80%   {filter: hue-rotate(270deg);}
+    85%   {filter: hue-rotate(288deg);}
+    90%   {filter: hue-rotate(306deg);}
+    95%   {filter: hue-rotate(324deg);}
+    100%   {filter: hue-rotate(342deg);}
+}
+
+@keyframes fade {
+    0%   {filter: opacity(1);}
+    25%   {filter: opacity(0.5);}
+    50%   {filter: opacity(0);}
+    75%   {filter: opacity(1);}
+    100%   {filter: opacity(0.5);}
+}
+/* 
+@media only screen and (max-width: 975px){
+    
+} */

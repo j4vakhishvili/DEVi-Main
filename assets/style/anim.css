@@ -1,0 +1,35 @@
+body{
+    overflow: hidden;
+}
+
+.DEVi-hand, .Hand-Lights{
+    opacity: 0;
+    transform: translateY(200px);
+    transition: 1s;
+}
+
+.Ball{
+    opacity: 0;
+    transform: translateY(500px);
+    transition: 1.3s;
+}
+
+.DEVi, .Lights, header{
+    opacity: 0;
+    transform: translateX(-500px);
+    transition: 0.7s;
+}
+
+.stars, .side-lights, .top-lights{
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.bg-smoke, .smoke{
+    opacity: 0;
+    transition: 0.7s;
+}
+
+header{
+    transition: 1.5s;
+}

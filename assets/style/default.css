@@ -1,3 +1,8 @@
+html{
+  scroll-behavior: smooth;
+  cursor: url(../media/icons/cursor.png), default;
+}
+
 @font-face {
     font-family: 'Mark';
     src: url(../fonts/MarkGEOCAPS-Medium.ttf);
@@ -14,13 +19,8 @@
 }
 
 @font-face {
-    font-family: 'Onley';
+    font-family: 'Olney';
     src: url(../fonts/Olney-Bold.ttf);
-}
-
-@font-face {
-    font-family: 'Gilroy';
-    src: url(../fonts/Gilroy\ GEO\ Black.ttf);
 }
 
 ::-webkit-scrollbar {
@@ -42,12 +42,17 @@
   }
   
   ::selection {
-    background: #ffb000;
+    background: #d400407e;
     color: white;
   }
 
   button:focus {
     outline: none;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 p{
