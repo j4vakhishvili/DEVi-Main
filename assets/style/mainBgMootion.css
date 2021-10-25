@@ -14,7 +14,7 @@ body{
     background-position: 50%;
     background-size: cover;
     animation: rgb 5s infinite;
-    animation: fade 3s infinite;
+    animation: rgb 3s infinite;
 }
 
 .side-lights{
@@ -27,7 +27,7 @@ body{
     background: url(../media/first-page-mootion/DEVi-top-light.png);
     background-position: 50%;
     background-size: cover;
-    animation: fade 5s infinite;
+    animation: rgb 5s infinite;
     animation-delay: 9s;
 }
 
@@ -36,7 +36,7 @@ body{
     background-size: auto;
     background-position: 97% 50%;
     background-repeat: no-repeat;
-    animation: fade 5s infinite;
+    animation: rgb 5s infinite;
 }
 
 .DEVi{
@@ -74,7 +74,7 @@ body{
     background-size: auto;
     background-position: 5% 50%;
     background-repeat: no-repeat;
-    animation: fade 5s infinite;
+    animation: rgb 5s infinite;
 }
 
 @keyframes rgb {
@@ -100,13 +100,6 @@ body{
     100%   {filter: hue-rotate(342deg);}
 }
 
-@keyframes fade {
-    0%   {filter: opacity(1);}
-    25%   {filter: opacity(0.5);}
-    50%   {filter: opacity(0);}
-    75%   {filter: opacity(1);}
-    100%   {filter: opacity(0.5);}
-}
 /* 
 @media only screen and (max-width: 975px){
     
