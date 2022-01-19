@@ -1,0 +1,12 @@
+body{
+    background: url(../media/effects/background\ light.png) #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.container{
+    width: 1740px;
+    margin: auto;
+    display: flex;
+}
