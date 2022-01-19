@@ -1,0 +1,127 @@
+.card{
+    width: 435px;
+    height: 800px;
+    border-radius: 20px;
+    background: url(../media/effects/bg\ of\ portfolio\ card.png) #161616;
+    position: fixed;
+    left: 73.2%;
+}
+
+.main{
+    padding-top: 160px;
+}
+
+img.logo{
+    width: 190px;
+    height: auto;
+    display: flex;
+    margin: auto;
+    margin-top: -50px;
+    border-radius: 12px;
+    border: 3px solid rgb(255,255,255);
+    position: relative;
+    z-index: 1;
+    box-shadow: 0px 0px 135px rgb(234 0 39 / 50%);
+}
+
+.btn-card{
+    border-radius : 0px 0px 22px 22px;
+    background : linear-gradient(90deg, rgba(237, 0, 73, 1) 0%, rgba(234, 0, 39, 1) 100%);
+    width: 195px;
+    height: 45px;
+    margin: auto;
+    margin-top: -30px;
+    font-family: 'Azonix';
+    font-size : 22px;
+    color: rgb(255,255,255);
+    box-shadow: 0px 0px 90px rgb(234 0 39 / 50%);
+    padding-top: 40px;
+    text-align: center;
+    cursor: url(../media/icons/cursor-pointer.png), pointer;
+    
+}
+
+.icon-fullscreen{
+    background-image : url(../media/icons/fullscreen\ icon.svg);
+    background-repeat : no-repeat;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+}
+
+ul{
+    list-style-type: none;
+    font-family: 'Mark';
+    font-size: 30px;
+    color: #fff;
+    padding: 0 60px;
+    margin-top: 80px;
+}
+
+li{
+    margin-top: 25px;
+    cursor: url(../media/icons/cursor-pointer.png), pointer;
+}
+
+.social{
+    width: 70%;
+    height: 95px;
+    border-top: 1px solid white;
+    border-image:  url(../media/effects/lines.svg) 30 round;
+    margin: auto;
+    margin-top: 90px;
+    padding: 0 20px;
+}
+
+.icon{
+    width: 37px;
+    height: 30px;
+    display: inline-block;
+    margin-top: 30px;
+    opacity: 0.4;
+    cursor: url(../media/icons/cursor-pointer.png), pointer;
+}
+
+.yt{
+    background: url(../media/icons/youtube\ icon.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fb{
+    background: url(../media/icons/facebook\ icon.svg);
+    background-repeat: no-repeat;
+}
+
+.ig{
+    background: url(../media/icons/instagram\ icon.svg);
+    background-repeat: no-repeat;
+}
+
+.dc{
+    background: url(../media/icons/discord\ icon.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.social-links:not(:last-child){
+    margin-right: 48px;
+}
+
+.content{
+    width: 1260px;
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-content: center;
+}
+
+.project{
+    width: 605px;
+    height: 340px;
+    border-radius: 15px;
+    background: #191919;
+    display: inline-flex;
+}

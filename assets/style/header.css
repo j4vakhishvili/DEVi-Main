@@ -2,9 +2,10 @@ header{
     display: flex;
     position: fixed;
     width: 100%;
+    padding-top: 20px;
 }
 
-.logo{
+a.logo{
     font-family: 'Olney';
     color: white;
     font-size : 55px;
