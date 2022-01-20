@@ -61,6 +61,13 @@ ul{
 li{
     margin-top: 25px;
     cursor: url(../media/icons/cursor-pointer.png), pointer;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+li:hover{
+    opacity: 1;
+    transition: 0.3s;
 }
 
 .social{
@@ -80,6 +87,12 @@ li{
     margin-top: 30px;
     opacity: 0.4;
     cursor: url(../media/icons/cursor-pointer.png), pointer;
+    transition: 0.3s;
+}
+
+.icon:hover{
+    opacity: 1;
+    transition: 0.3s;
 }
 
 .yt{
