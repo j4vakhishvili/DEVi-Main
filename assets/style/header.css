@@ -5,7 +5,7 @@ header{
     padding-top: 20px;
 }
 
-a.logo{
+a.logo, h1{
     font-family: 'Olney';
     color: white;
     font-size : 55px;
@@ -85,4 +85,13 @@ nav a:hover{
 
 .edu{
     margin-right: 10px !important;
+}
+
+@media only screen and (max-width: 720px){
+    nav{
+        display: none;
+    }
+    a.logo, h1{
+        font-size: 1.6em;
+    }
 }

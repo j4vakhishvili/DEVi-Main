@@ -1,19 +1,26 @@
 h1{
-    position: absolute;
     font-family: 'Olney', 'Mark', 'Mark-Low', sans-serif;
     color: white;
     font-size: 6em;
     margin: 0;
 }
 
+h2{
+    font-family: 'Olney', 'Mark', 'Mark-Low', sans-serif;
+    color: white;
+    font-size: 2.1em;
+}
+
 header{
     padding: 80px 105px;
+    display: flex;
+    height: 80vh;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 nav{
-    position: fixed;
     bottom: -74vh;
-    width: 330px;
 }
 
 nav a{
@@ -21,7 +28,7 @@ nav a{
     color: white;
     font-family: 'Olney', 'Mark', 'Mark-Low', sans-serif;
     font-size: 3.125em;
-    opacity: 0.5;
+    /* opacity: 0.5; */
     cursor: url(../media/icons/cursor-pointer.png), pointer;
     transition: 1s;
     padding-top: 10px;
@@ -33,79 +40,21 @@ nav img{
     /* animation: rgb 5s infinite; */
 }
 
-.active{
-    opacity: 1;
-}
-
-nav a:hover{
-    opacity: 100%;
-    transition: 0.5s;
-    box-shadow: 0px 4px #ed0049;
-}
-
-.active:hover{
-    box-shadow: 0px 0px;
-}
-
-footer{
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 160px;
-    height: 100%;
-    border-left: 1px solid white;
-    opacity: 0.6;
-}
-
-.social{
-    transform: rotate(-90deg);
-    position: absolute;
-    width: 885px;
-    height: 755px;
-}
-
-.social a{
-    opacity: 0.6;
-    color: white;
-    font-family: 'Mark', 'Mark-Low', sans-serif;
-    font-size: 24px;
-    text-decoration: none;
-    padding: 0 45px;
-    cursor: url(../media/icons/cursor-pointer.png), pointer;
-    transition: 0.5s;
-}
-
-.social a:hover{
-    opacity: 0.9;
-    transition: 0.5s;
-}
-
-.language {
-    width: 100%;
-    height: 105px;
-    border-top: 1px solid rgba(255, 255, 255, 0.596);
-    position: fixed;
-    bottom: 0;
-}
-
-.language a {
-    font-family: 'Mark', sans-serif;
-    color: white;
-    opacity: 1;
-    font-size: 20px;
-    text-decoration: none;
-    line-height: 100px;
-    transition: 0.3s;
-    cursor: url(../media/icons/cursor-pointer.png), pointer;
-}
-
-.language a:not(:last-child) {
-    margin-left: 28px;
-    margin-right: 15px;
-}
-
-.on {
-    border-bottom: 2px solid white;
-    padding-bottom: 5px;
-    transition: 0.3s;
+@media only screen and (max-width: 720px){
+    header{
+        padding: 20px 24px;
+        height: 95vh;
+    }
+    h1{
+        font-size: 4em;
+    }
+    h2{
+        font-size: 1.42em;
+    }
+    nav a{
+        font-size: 2em;
+    }
+    nav img{
+        width: 20px;
+    }
 }
