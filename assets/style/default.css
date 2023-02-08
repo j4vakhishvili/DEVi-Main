@@ -28,6 +28,11 @@ html{
   src: url(../fonts/Azonix.otf);
 }
 
+@font-face {
+  font-family: 'Boli';
+  src: url(../fonts/mvboli.ttf);
+}
+
 
 ::-webkit-scrollbar {
     width: 8px;
