@@ -24,6 +24,8 @@ main{
     height: 41.45vh;
     background: url(../media/effects/index\ bg\ decoration.jpg);
     border-radius: 32px;
+    background-position: center;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -124,6 +126,7 @@ div{
         width: 64px;
     }
     main{
+        background: url(../media/effects/index\ bg\ mobile.jpg);
         background-position: center;
         width: 100%;
         margin-top: 30px;
