@@ -26,12 +26,12 @@
     </header>
     <div class="container main">
         <div class="content">
-            <div class="project"></div>
-            <div class="project"></div>
+            <div class="project edu" onclick="window.open('https://edu-devi.tk', '_blank');"></div>
+            <div class="project nttd" onclick="window.open('https://j4vakhishvili.itch.io/no-time-to-die', '_blank');"></div>
         </div>
         <div class="card">
             <img src="assets/media/icons/DEVi logo.svg" alt="logo" class="logo">
-            <div class="btn-card">Staff <div class="icon-fullscreen"></div></div>
+            <div class="btn-card" onclick="openModal()">Staff <div class="icon-fullscreen"></div></div>
             <ul>
                 <li>Everything</li>
                 <li>Logo and Branding</li>
@@ -48,5 +48,48 @@
             </div>
         </div>
     </div>
+    <section class="modal" id="modal" onclick="closeModal()">
+        <section class="bg-modal">
+            <section class="workers-card">
+                <div class="img temo"></div>
+                <div class="title">
+                    <p class="name">Temuri Tsutskiridze</p>
+                    <p class="position">Founder</p>
+                </div>
+            </section>
+            <section class="workers-card">
+                <div class="img merabi"></div>
+                <div class="title">
+                    <p class="name">Merabi Kekelidze</p>
+                    <p class="position">Co-Founder</p>
+                </div>
+            </section>
+            <section class="workers-card">
+                <div class="img nika-dev"></div>
+                <div class="title">
+                    <p class="name">Nika Lomsadze</p>
+                    <p class="position">Developer</p>
+                </div>
+            </section>
+            <section class="workers-card">
+                <div class="img nika-dsgn"></div>
+                <div class="title">
+                    <p class="name">Nika Javakhishvili</p>
+                    <p class="position">Designer</p>
+                </div>
+            </section>
+        </section>
+    </section>
+    <script>
+        const modal = document.getElementById('modal');
+        function openModal(){
+            modal.style.transform = "translateY(0)";
+            modal.style.opacity = "1";
+        }
+        function closeModal(){
+            modal.style.transform = "translateY(-100%)";
+            modal.style.opacity = "0.6";
+        }
+    </script>
 </body>
 </html>

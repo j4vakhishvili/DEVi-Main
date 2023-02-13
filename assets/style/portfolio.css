@@ -1,6 +1,4 @@
 .card{
-    width: 435px;
-    height: 800px;
     border-radius: 20px;
     background: url(../media/effects/bg\ of\ portfolio\ card.png) #161616;
     position: fixed;
@@ -127,21 +125,159 @@ li:hover{
 }
 
 .content{
-    width: 1260px;
+    width: 73.5%;
     display: flex;
     justify-content: start;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 32px;
     align-content: center;
 }
 
 .project{
-    width: 605px;
-    height: 340px;
+    width: 48%;
+    height: 40vh;
     border-radius: 15px;
     background: #191919;
     display: inline-flex;
+    transition: 0.3s;
+    cursor: url(../media/icons/cursor-pointer.png), pointer;
+}
+
+.project:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+div.edu {
+    background: url(https://j4vakhishvili.tk/assets/media/gallery/covers/DeviEduCover.jpg);
+    background-size: cover;
+}
+
+.nttd {
+    background: url(https://j4vakhishvili.tk/assets/media/gallery/covers/notimetodie.jpg);
+    background-size: cover;
+}
+
+.modal{
+    transform: translateY(-100%);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(8px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.bg-modal{
+    width: 28%;
+    height: 65%;
+    background: #161616;
+    border-radius: 26px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 2% 0;
+    gap: 16px;
+}
+
+.workers-card{
+    width: 86%;
+    height: 25%;
+    border-radius: 16px;
+    border: 1px solid rgb(72 72 72);
+    /* margin-top: 28px; */
+    display: flex;
+}
+
+.img{
+    width: 25%;
+    height: 80%;
+    background: #fff;
+    margin: 3.5%;
+    border-radius: 12px;
+}
+
+.title{
+    margin: 3.5% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title p{
+    color: white;
+    font-family: 'Mark';
+}
+
+.name{
+    font-size: 24px;
+}
+
+.position{
+    font-size: 18px;
+    opacity: 0.5;
+}
+
+.temo{
+    background: url(https://scontent.ftbs6-2.fna.fbcdn.net/v/t1.15752-9/328722617_732882778188712_3746150431399203689_n.png?_nc_cat=102&ccb=1-7&_nc_sid=ae9488&_nc_ohc=DoUwMeciD1AAX-_xMCt&tn=Mm8KQiHRckx2b_cC&_nc_ht=scontent.ftbs6-2.fna&oh=03_AdSSRCziNhcao5UOC9aVWC_YJzlZ7wXF78_r_lCU4WTW-w&oe=64116154);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.merabi{
+    background: url(http://devi.ml/assets/media/icons/DEVi%20logo.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nika-dev{
+    background: url(https://scontent.ftbs6-2.fna.fbcdn.net/v/t1.6435-9/179269113_503349454017355_4175817388576504637_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=z9sxNPvYNcwAX-pWe3K&_nc_ht=scontent.ftbs6-2.fna&oh=00_AfBO7R6-ub0ou2Ka1vVYIMh7yEuqsHQeU1m8IQaff5OvEw&oe=64116E2C);
+    background-position: 59% 28%;
+    background-repeat: no-repeat;
+    background-size: 400px;
+}
+
+.nika-dsgn{
+    background: url(https://scontent.ftbs6-2.fna.fbcdn.net/v/t1.6435-9/178512616_2605523529748654_191405621296581039_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=174925&_nc_ohc=bIrt009e3IEAX-Ntm8r&_nc_ht=scontent.ftbs6-2.fna&oh=00_AfBVXZ9xkieXITA-JWuQu4Va5NWv1ewS5LcEajTHuXzNdQ&oe=64116223);
+    background-position: 74% 49%;
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+
+@media only screen and (max-width: 1820px){
+    .main {
+        padding-top: 120px;
+    }
+    .card{
+        left: 74.5%;
+    }
+    ul{
+        margin-top: 40px;
+        font-size: 24px;
+    }
+    img.logo, .btn-card{
+        width: 140px;
+        border-radius: 16px;
+    }
+    .btn-card{
+        height: 32px;
+    }
+    img.logo{
+        border: 1px solid #fff;
+    }
+    .social{
+        margin-top: 32px;
+    }
+    .social-links:not(:last-child) {
+        margin-right: 33.3px;
+    }
 }
 
 @media only screen and (max-width: 720px){

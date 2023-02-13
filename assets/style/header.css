@@ -57,7 +57,7 @@ nav a:not(:last-child){
 nav{
     display: flex;
     align-items: center;
-    margin-left: 90px;
+    margin-left: 64px;
 }
 
 .active{
